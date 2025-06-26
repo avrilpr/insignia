@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #FFFFFA;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #000 !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #FFC107 !important;
+  }
+  
+  .navbar-nav .nav-link.activo {
+    background-color: #FFC107;
+    color: #000 !important;
+    font-weight: bold;
+    padding: 6px 14px;
+    border-radius: 20px;
+  }
+  .text-warning {
+    color: #FFC107 !important;
+  }
+  
+  .text-highlight {
+    color: #FFC107;
+    font-weight: bold;
+  }
+  
+  .hero-title {
+    font-size: 7.5vw;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  
+  .hero-title span {
+    color: #FFC107;
+  }
+  
+  .hero-section {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem 5vw;
+    gap: 2rem;
+  }
+  
+  .product-card,
+  .cocktail-card {
+    background-color: #111;
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  }
+  
+  .cocktail-link {
+    display: block;
+    color: #FFC107;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .cocktail-link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .highlight-yellow {
+    color: #FFC107;
+    font-weight: bold;
+  }
+  
+  .main-text {
+    margin-top: 100px;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-top: 30px;
+  }
+
+  .cocktail-detail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 4rem 2rem;
+  }
+  
+  .cocktail-detail img {
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .cocktail-detail .info {
+    max-width: 500px;
+  }
+  
+  .cocktail-detail h2 {
+    color: #FFC107;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .cocktail-detail h4 {
+    color: #FFC107;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+  }
+  
